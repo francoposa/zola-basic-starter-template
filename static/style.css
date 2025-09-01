@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
-    max-width: 48rem;
+    /*max-width: 48rem;*/
+    max-width: min(48rem, calc(100% - 4rem));
 }
 
 a {
