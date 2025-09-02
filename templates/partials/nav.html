@@ -2,10 +2,9 @@
     <a href="/"><h1>{{ config.title }}</h1></a>
 </div>
 <nav>
-
     <div>
     {% for menu_section in config.extra.menu.sections %}
-        <span>
+        <span class="nav-item">
             <a href={{ get_url(path=menu_section.url) }}>{{ menu_section.name }}</a>
         </span>
     {% endfor %}
